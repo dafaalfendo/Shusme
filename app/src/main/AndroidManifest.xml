@@ -10,7 +10,9 @@
         android:theme="@style/AppTheme">
 
         <!-- TODO (1) Add meta-data tag with API key -->
-        <meta-data android:value="AIzaSyAUpD9RlEF33YE2hCsgrPSkHEolGThixHA" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAUpD9RlEF33YE2hCsgrPSkHEolGThixHA" />
 
         <activity android:name="com.example.android.shushme.MainActivity">
             <intent-filter>
