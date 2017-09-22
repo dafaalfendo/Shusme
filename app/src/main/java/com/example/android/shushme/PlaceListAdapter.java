@@ -24,7 +24,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.android.gms.location.places.PlaceBuffer;
-
 public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.PlaceViewHolder> {
 
     private Context mContext;

@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public void onConnectionSuspended(int i) {
         Log.i(TAG, "API Client Connection Suspended");
+        refreshPlacesData();
     }
 
     @Override
